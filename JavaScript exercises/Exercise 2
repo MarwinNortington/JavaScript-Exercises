@@ -1,0 +1,7 @@
+Given an array of strings, find the word that appears the greatest of times.
+
+stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
+
+// result
+// The word that appears most: yo
+// Number of times:  3
