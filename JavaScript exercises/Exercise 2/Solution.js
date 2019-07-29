@@ -1,4 +1,3 @@
-
 stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
 
 let frequency = {};
