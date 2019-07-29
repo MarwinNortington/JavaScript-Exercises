@@ -1,5 +1,5 @@
     
-let stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
+const stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
 let frequency = {};
 let max = 0, count = 0;
 let result;
