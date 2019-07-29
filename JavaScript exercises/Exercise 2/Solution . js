@@ -1,0 +1,20 @@
+    
+let stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
+let frequency = {};
+let max = 0, count = 0;
+let result;
+let word_from_store;
+
+for(let word in stringArray) {
+  word_from_store = stringArray[word];
+  frequency[word_from_store] = (frequency[word_from_store] || 0) + 1; // Assigning each element with a number
+  
+  if(frequency[word_from_store] > max){
+    count++; // The number of time it appears
+    max = frequency[word_from_store]; 
+    result = word_from_store; // The word
+  }
+  
+}
+console.log("The word that appears most:" + result);
+console.log("Number of times:" + count);
