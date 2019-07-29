@@ -1,4 +1,4 @@
-stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
+let stringArray = ['hey','yo','mike','yo,'hey','yo','what'];
 
 let frequency = {};
 let max = 0, count = 0;
